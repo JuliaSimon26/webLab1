@@ -1,0 +1,194 @@
+h1 {
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 1px 1px 1px blue;
+  color: white;
+}
+h2 {
+  color: white;
+  text-align: center;
+}
+body {
+background-color: #ba68c8;
+margin: 0px;
+font-family: sans-serif;
+ }
+
+img {
+ width: 150px;
+ height: 150px;
+}
+	
+.parent
+{
+	height: 150px;
+        background-color: #7986cb;
+	padding-left: 40px;
+        padding-right: 40px;       
+        
+}
+.child
+{ 
+	height: 150px;
+	float: left;
+         width: 25%;
+        display: flex;
+	
+	align-items: center;
+	text-align: center;       
+}
+.ch1 {
+text-align: left;
+color: white;
+font-size: 40px;
+font-weight: 500px;
+height: 150px;
+float: left;
+width: 25%;
+display: flex;
+
+align-items: center;
+    
+}
+.ch2 {
+font-size: 30px;
+font-weight: 500px;
+color: white;
+}
+
+
+.button { 
+   width: 200px;
+   height: 50px;
+  display: inline-block;
+  text-align: center;
+  font-weight: 10000;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: rgb(64,199,129);
+  box-shadow: 0 -3px rgb(53,167,110) inset;
+  transition: 0.2s;
+} 
+.button:hover { background: rgb(53, 167, 110); }
+.button:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}
+img.newimage {
+width: 750px;
+height: 500px;
+float: left;
+padding: 0 20px 20px 0;
+}
+
+.block_2
+{
+        float:left; 
+	height: 500px; 
+        padding-left: 40px;
+       padding-right: 40px;
+
+}
+.text
+{
+        
+        font-size: 20px;
+        color: white;
+	text-align: center;
+     
+}
+
+
+
+
+
+.thirdblock {
+        position: relative;
+        float:left; 
+	height: 600px;
+        padding-top: 100px;
+        padding-right: 50px;
+        display: inline-block;
+        //background: url('../images/dance3.jpg') no-repeat fixed center center;
+
+
+       
+}
+
+.test {
+display: inline-block;
+padding: 50px;
+text-align: center;
+width: 200 px;
+
+
+}
+.registration {
+        float: right;
+        background: #7986cb;
+        padding: 25px;
+        padding-top: 10px;
+        border: 1px solid rgba(147, 184, 189,0.8);
+        box-shadow:
+        0pt 2px 5px rgba(105, 108, 109,  0.7),
+        0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+        border-radius: 5px;
+        display: inline-block;
+        height: 400px;    
+         
+}
+.but3 {
+display: block;
+width: 33%;
+height: auto;
+margin: 0 auto;
+height: 20px;
+width: 100px;
+display: inline-block;
+text-align: center;
+  font-weight: 10000;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: rgb(64,199,129);
+  box-shadow: 0 -3px rgb(53,167,110) inset;
+  transition: 0.2s;
+
+ }
+.input_text {
+width: 92%;
+    margin-top: 4px;
+    padding: 10px 5px 10px 32px;
+    padding-right: 0px;
+    padding-left: 10px;
+    border: 1px solid rgb(178, 178, 178);
+    box-sizing : content-box;
+    border-radius: 3px;
+    box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+}
+.name {
+width: 600px;
+font-size: 30px;
+text-align: center;
+padding-left: 100px;
+padding-right: 100px;
+padding-top: 0px;
+
+}
+.name2 {
+width: 600px;
+padding-top: 50px;
+padding-right: 100px;
+padding-left: 100px;
+}
+
+.block {
+padding-top: 10px;
+}
+.fl1 {
+font-weight: 200;
+font-size: 30px;
+text-shadow: 1px 1px 1px blue;}
